@@ -3,9 +3,7 @@
 </p>
 <p align="center">
 </p>
-
- 
-𝗖𝗥𝗘𝗔𝗗𝗢𝗥: [`𝕿𝖍𝖊𝕮𝖍𝖔𝖚𝖙𝖊`](https://github.com/thechoute) <br>
+                        𝗖𝗥𝗘𝗔𝗗𝗢𝗥: [`𝕿𝖍𝖊𝕮𝖍𝖔𝖚𝖙𝖊`](https://github.com/thechoute) <br>
 
 <p align="center">
 

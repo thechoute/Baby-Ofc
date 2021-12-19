@@ -32,7 +32,7 @@ Inicia la instalacion
 - bash install.sh
 ```
 
-PARA INICIAR EL BOT
+Para Iniciar el Bot
  ```bash
 - node thechoute
 ```

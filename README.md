@@ -1,5 +1,5 @@
 <p align="center">
-<img src="./media/pornhub.png" width="140" height="140"/>
+<img src="./media/pornhub.jpg" width="140" height="140"/>
 </p>
 <p align="center">
 

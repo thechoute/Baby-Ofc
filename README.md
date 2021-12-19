@@ -3,6 +3,7 @@
 
 <p align="center">
 
+<p align="center">
 𝗠𝗜𝗦 𝗖𝗢𝗡𝗧𝗔𝗖𝗧𝗢𝗦
 <p align="center">
 <a href="http://wa.me/18299897014" target="blank"><img src="https://img.shields.io/badge/Whatsapp-30302f?style=flat&logo=whatsapp" /></a>

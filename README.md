@@ -12,9 +12,7 @@
 <p align="center">
 
 <p align="center">
-<a href="https://github.com/thechoute/"><img title="Author" src="https://img.shields.io/badge/Author-mhankbarbar-red.svg?style=for-the-badge&logo=github"></a>
-</p>
-</p>
+<a href="https://github.com/thechoute/"><img title="Author" src="https://img.shields.io/badge/Author-The Choute-red.svg?style=for-the-badge&logo=github"></a>
  
  
 𝗠𝗜𝗦 𝗖𝗢𝗡𝗧𝗔𝗖𝗧𝗢𝗦

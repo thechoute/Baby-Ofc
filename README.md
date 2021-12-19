@@ -33,10 +33,7 @@ PARA INICIAR EL BOT
 - npm start
 ```
 ### PARA WINDOWS/VPS/RDP USER💻
- ```bash
-
 - Pulsa Para Instalar Git [`Click Here`](https://git-scm.com/downloads) <br>
 - Pulsa Para Instalar NodeJS [`Click Here`](https://nodejs.org/en/download) <br>
 - Pulsa Para Instalar FFMPEG [`Click Here`](https://ffmpeg.org/download.html) (don't forget to path) 
 - Pulsa Para Instalar ImageMagick [`Click Here`](https://imagemagick.org/script/download.php) (if nulis want work,  checklist columns 1,2,3,5,6) 
-```

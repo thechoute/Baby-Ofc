@@ -3,7 +3,7 @@
 <p align="center">
 
 <p align="center">
-<a href="https://github.com/thechoute/"><img title="Author" src="https://img.shields.io/badge/Author-The Choute-red.svg?style=for-the-badge&logo=github"></a>
+<a href="https://github.com/thechoute/"><img title="Author" src="https://img.shields.io/badge/Author-𝕿𝖍ٌ𝖊𝕮𝖍𝖔𝖚𝖙𝖊-red.svg?style=for-the-badge&logo=github"></a>
 
 <p align="center">
 

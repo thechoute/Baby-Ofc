@@ -44,3 +44,4 @@ PARA INICIAR EL BOT
 - Pulsa Para Instalar ImageMagick [`Click Here`](https://imagemagick.org/script/download.php)
 ## Grupo de WhatsApp Para Ayuda & Asistencia
 <a href="https://chat.whatsapp.com/Jv3BQj0TgZl4wyrslvM3fS"><img alt="WhatsApp" src="https://img.shields.io/badge/Whatsapp-30302f?style=flat&logo=whatsapp"/></a>
+<a href="https://chat.whatsapp.com/Jv3BQj0TgZl4wyrslvM3fS"><img alt="WhatsApp" src="https://img.shields.io/badge/Grupo%20De%20WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white"/></a>

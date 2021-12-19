@@ -13,7 +13,7 @@
 </p>
 
 ### PROCESO DE INSTALACION
-Insttala archivos necesarios
+Instala los archivos necesarios
 ```bash
 - pkg upgrade && update
 - pkg install nodejs

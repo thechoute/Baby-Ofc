@@ -3,6 +3,8 @@
 </p>
 <p align="center">
 𝗖𝗥𝗘𝗔𝗗𝗢𝗥: 𝕿𝖍𝖊𝕮𝖍𝖔𝖚𝖙𝖊
+* Download And Install Git [`Click Here`](https://git-scm.com/downloads) <br>
+
 <p align="center">
 
 ### MIS CONTACTOS
@@ -15,6 +17,7 @@
  
 </p>
 
+* Download And Install Git [`Click Here`](https://git-scm.com/downloads) <br>
 
 ### PROCESO DE INSTALACION
 Insttala archivos necesarios

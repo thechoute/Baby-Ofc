@@ -2,8 +2,10 @@
 <img src="./media/imagen/baby.png" width="140" height="140"/>
 </p>
 <p align="center">
-𝗖𝗥𝗘𝗔𝗗𝗢𝗥: 𝕿𝖍𝖊𝕮𝖍𝖔𝖚𝖙𝖊
-* Download And Install Git [`Click Here`](https://git-scm.com/downloads) <br>
+</p>
+
+ 
+𝗖𝗥𝗘𝗔𝗗𝗢𝗥: [`𝕿𝖍𝖊𝕮𝖍𝖔𝖚𝖙𝖊`](https://github.com/thechoute) <br>
 
 <p align="center">
 

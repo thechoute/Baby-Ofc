@@ -1,5 +1,3 @@
-# Baby-Ofc
-𝗕𝗼𝘁 𝗱𝗲 𝗪𝗵𝗮𝘁𝘀𝗔𝗽𝗽, 𝗩𝗶𝗮 𝗧𝗲𝗿𝗺𝘂𝘅
 <p align="center">
 <img src="./media/imagen/baby.png" width="140" height="140"/>
 </p>
@@ -35,11 +33,10 @@ Inicia la instalacion
 - bash install.sh
 ```
 PARA INICIAR EL BOT
-
  ```bash
 - npm start
 ```
-### FOR WINDOWS/VPS/RDP USER💻
+### PARA WINDOWS/VPS/RDP USER💻
 * Download And Install Git [`Click Here`](https://git-scm.com/downloads) <br>
 * Download And Install NodeJS [`Click Here`](https://nodejs.org/en/download) <br>
 * Download And Install FFMPEG [`Click Here`](https://ffmpeg.org/download.html) (don't forget to path) 

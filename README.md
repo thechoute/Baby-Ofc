@@ -2,11 +2,8 @@
 <img src="./media/imagen/baby.png" width="140" height="140"/>
 </p>
 <p align="center">
-</p>
-                        𝗖𝗥𝗘𝗔𝗗𝗢𝗥: [`𝕿𝖍𝖊𝕮𝖍𝖔𝖚𝖙𝖊`](https://github.com/thechoute) <br>
 
 <p align="center">
-
 ### MIS CONTACTOS
 <p align="center">
 <a href="http://wa.me/18299897014" target="blank"><img src="https://img.shields.io/badge/Whatsapp-30302f?style=flat&logo=whatsapp" /></a>

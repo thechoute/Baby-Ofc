@@ -28,7 +28,7 @@ Clona este repositorio
 
 Inicia la instalacion
 ```bash
-- cd BabyBechoso
+- cd Baby-Ofc
 - bash install.sh
 ```
 

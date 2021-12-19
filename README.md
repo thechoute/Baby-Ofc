@@ -6,6 +6,7 @@
 <a href="https://github.com/thechoute/"><img title="Author" src="https://img.shields.io/badge/Author-The Choute-red.svg?style=for-the-badge&logo=github"></a>
 
 <p align="center">
+<p align="center">
 
 𝗠𝗜𝗦 𝗖𝗢𝗡𝗧𝗔𝗖𝗧𝗢𝗦
 <p align="center">

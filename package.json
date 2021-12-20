@@ -1,0 +1,35 @@
+{
+  "name": "BabyBechoso",
+  "version": "0.0.0",
+  "description": "",
+  "main": "thechoute.js",
+  "scripts": {
+    "start": "node thechoute.js"
+  },
+  "dependencies": {
+    "-": "0.0.1",
+    "@adiwajshing/baileys": "^3.5.2",
+    "axios": "^0.23.0",
+    "cfonts": "^2.10.0",
+    "crypto-js": "^4.1.1",
+    "fake-useragent": "^1.0.1",
+    "fluent-ffmpeg": "^2.1.2",
+    "g-i-s": "^2.1.6",
+    "google-it": "^1.6.2",
+    "hxz-api": "^1.0.1",
+    "image-to-base64": "^2.2.0",
+    "imgbb-uploader": "^1.3.4",
+    "moment-timezone": "^0.5.33",
+    "multistream": "^4.1.0",
+    "node": "^17.0.1",
+    "node-fetch": "^2.6.1",
+    "npm": "^8.1.1",
+    "qrcode": "^1.5.0",
+    "remove.bg": "^1.3.0",
+    "request": "^2.88.2",
+    "requests": "^0.3.0",
+    "spinnies": "^0.5.1",
+    "toml": "^3.0.0",
+    "yt-search": "^2.10.2"
+  }
+}

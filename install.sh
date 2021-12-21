@@ -10,13 +10,6 @@ pkg install termimage
 pkg install toilet
 pkg install cowsay
 pkg install neofetch
-npm i ffmpeg
-npm i cfonts
-npm install
-npm i yt-search
-npm i google-it
-npm i g-i-s
-npm i hxz-api
 npm i
 
 

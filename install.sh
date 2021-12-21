@@ -5,7 +5,17 @@ apt-get install wget -y
 apt-get install imagemagick -y
 apt-get install tesseract -y
 npm install
-
+npm i ffmpeg
+npm i cfonts
+npm i yt-search
+npm i google-it
+npm i g-i-s
+npm i hxz-api
+npm i node-fetch
+npm i moment-timezone
+npm i child_process
+npm i fluent-ffmpeg
+npm i 
 
 echo -e '\e[1;32m
 Descarga Completada al 100%

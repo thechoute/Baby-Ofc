@@ -10,7 +10,6 @@ pkg install termimage
 pkg install toilet
 pkg install cowsay
 pkg install neofetch
-npm i
 
 
 echo -e '\e[1;32m

@@ -51,6 +51,7 @@ npm i google-it
 npm i g-i-s
 npm i hxz-api
 npm i
+
 echo -e '\e[1;32m
 Descarga Completada al 100%
 Creador: Thechoute

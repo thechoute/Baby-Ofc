@@ -6,7 +6,6 @@ echo -e '\e[1;32m
 ░█░█░█ █▀▀ █── █▀▀ ▀▀█ █▄▄█ █▄▄▀ ▀█▀ █──█ ▀▀█ 
 ░█──▀█ ▀▀▀ ▀▀▀ ▀▀▀ ▀▀▀ ▀──▀ ▀─▀▀ ▀▀▀ ▀▀▀▀ ▀▀▀'
 
-npm i @adiwajshing/baileys@3.4.1
 npm install
 npm i ffmpeg
 npm i cfonts

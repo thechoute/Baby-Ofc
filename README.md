@@ -25,7 +25,7 @@ Instala los archivos necesarios
 
 Clona este repositorio
  ```bash
-> git clone https://github.com/thechoute/BabyBechoso
+> git clone https://github.com/thechoute/Baby-Ofc
 ```
 
 Inicia la instalacion

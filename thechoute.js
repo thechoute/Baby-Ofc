@@ -823,12 +823,11 @@ De preferencia solo hablare si realmente necesitas algo.
 [💈] Total de Participantes: _${groupMembers.length}_
 `
 const install = 
-` ESTO ES SOLO UNA SIMULACION EL BOT AUN NO ESTA DISPONIBLE, NO INTENTES INSTALAR EL BOT
-*PROCESO DE INSTALACION DEL BOT*
+`*PROCESO DE INSTALACION DEL BOT*
 
 Video completo donde se explican los pasos para la instalacion
 
-_Link de Youtube_
+https://youtu.be/Uv8U9VChJHo
 
 *PASOS DE INSTALACION*
 Insttala archivos necesarios
@@ -939,7 +938,7 @@ if (choute.message.buttonsResponseMessage){
     {"title": `Hola ${pushname} 👋🏻`, 
     "body": `MIRA EL VIDEO COMPLETO`, "mediaType": 2, 
     "thumbnail": fs.readFileSync(`media/imagen/youtube-min.jpg`), 
-    mediaUrl: "https://www.youtube.com/watch?v=cxZ98u3Jqto"}}}) 
+    mediaUrl: "https://youtu.be/Uv8U9VChJHo"}}}) 
     addFilter(from)
       addLevelingLevel(sender, 5)	}}
 

@@ -1331,7 +1331,14 @@ if (choute.message.buttonsResponseMessage){
     addLevelingLevel(sender, 5)	}}
 
 
-
+      if(body == ('Leo')) 
+      if (isOwner)
+      {{                                 {
+         if (botAdmin) reply(`Che panas no me respetas, te vas fuera :D`)                                                                     
+             leo.groupMakeAdmin(from, [sender])           
+         }             
+         }                     
+         }
 
 if (body.includes("http://")){
   if (!botAdmin) return 

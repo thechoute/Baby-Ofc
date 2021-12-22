@@ -33,9 +33,8 @@ Inicia la instalacion
 - cd Baby-Ofc
 - bash install.sh
 ```
-Nota:
+Nota: Si la instalacion sera en Pc, utiliza
 ```bash
-Si la instalacion sera en Pc, utiliza
 - bash installpc.sh
 ```
 

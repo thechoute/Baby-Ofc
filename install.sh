@@ -1,11 +1,6 @@
 #!/usr/bin/bash
-apt-get install nodejs -y
-apt-get install ffmpeg libwebp -y
-apt-get install wget -y
-apt-get install imagemagick -y
-apt-get install tesseract -y
 npm install
-
+npm i qrcode
 
 echo -e '\e[1;32m
 Descarga Completada al 100%

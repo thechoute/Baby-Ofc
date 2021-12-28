@@ -1,4 +1,12 @@
 #!/usr/bin/bash
+echo -e '\e[1;32m
+▀█▀ █▀▀▄ █▀▀ ▀▀█▀▀ █▀▀█ █── █▀▀█ █▀▀▄ █▀▀▄ █▀▀█ 　 ░█▀▄▀█ █▀▀█ █▀▀▄ █──█ █── █▀▀█ █▀▀ 
+░█─ █──█ ▀▀█ ──█── █▄▄█ █── █▄▄█ █──█ █──█ █──█ 　 ░█░█░█ █──█ █──█ █──█ █── █──█ ▀▀█ 
+▄█▄ ▀──▀ ▀▀▀ ──▀── ▀──▀ ▀▀▀ ▀──▀ ▀──▀ ▀▀▀─ ▀▀▀▀ 　 ░█──░█ ▀▀▀▀ ▀▀▀─ ─▀▀▀ ▀▀▀ ▀▀▀▀ ▀▀▀ 
+░█▄─░█ █▀▀ █▀▀ █▀▀ █▀▀ █▀▀█ █▀▀█ ─▀─ █▀▀█ █▀▀ 
+░█░█░█ █▀▀ █── █▀▀ ▀▀█ █▄▄█ █▄▄▀ ▀█▀ █──█ ▀▀█ 
+░█──▀█ ▀▀▀ ▀▀▀ ▀▀▀ ▀▀▀ ▀──▀ ▀─▀▀ ▀▀▀ ▀▀▀▀ ▀▀▀'
+
 npm install
 npm i qrcode
 
@@ -11,6 +19,4 @@ Youtube: https://www.youtube.com/c/thechout
 
 Escribe node thechoute para iniciar el bot
 En caso que el bot presente algun problema, comunicate con el creador su numero esta mas arriba
-
-En caso que presente algun error escribe
-npm i'
+'

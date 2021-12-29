@@ -140,7 +140,7 @@ try {pushnem = choute.key.fromMe ? leo.user.name : conts.notify || conts.vname |
     catch {
     ppimg = 'https://centromedicomontemar.cl/wp-content/uploads/2015/06/sin-perfil.png'}  
     
-    teks = 
+     teks = 
 `😙Hola, @${num.split('@')[0]}
 Bienvenido a ${mdata.subject}
     
@@ -148,7 +148,12 @@ Esperemos la pases bien y te guste el grupo.
 Recuerda siempre seguir las reglas y mantener una formalidad respetuosa`
 
     let fotoP = await getBuffer(ppimg)
-    leo.sendMessage(mdata.id, fotoP, MessageType.image, {caption: teks, contextInfo: {"mentionedJid": [num]}})
+    //leo.sendMessage(mdata.id, fotoP, MessageType.image, {caption: teks, contextInfo: {"mentionedJid": [num]}})
+    leo.sendMessage(mdata.id, fotoP, MessageType.image,  {thumbnail:fs.readFileSync('./media/imagen/uwu.jpg'), caption: teks, contextInfo: { mentionedJid: [num], "forwardingScore": 508, "isForwarded": true, "externalAdReply": 
+    {"title": 'Como Instalar Este Bot',       
+    "body": 'Facil y Rapido',  
+    "thumbnail": fs.readFileSync('./media/imagen/youtube-mi.jpg'),
+    "sourceUrl": 'https://www.youtube.com/watch?v=Uv8U9VChJHo'}}})
     
     }  else if (anu.action == 'remove') {
     num = anu.participants[0]
@@ -176,7 +181,12 @@ Recuerda siempre seguir las reglas y mantener una formalidad respetuosa`
 🌎 *Grupo:* ${mdata.subject}
 *Felicitaciones eres uno de los administradores.*`
    let buff = await getBuffer(ppimg)
-    leo.sendMessage(mdata.id, buff, MessageType.image, {caption: teks, contextInfo: {"mentionedJid": [num]}})
+    //leo.sendMessage(mdata.id, buff, MessageType.image, {caption: teks, contextInfo: {"mentionedJid": [num]}})
+    leo.sendMessage(mdata.id, buff, MessageType.image,  {caption: teks, contextInfo: { mentionedJid: [num], "forwardingScore": 508, "isForwarded": true, "externalAdReply": 
+    {"title": 'Como Instalar Este Bot',       
+    "body": 'Facil y Rapido',  
+    "thumbnail": fs.readFileSync('./media/imagen/youtube-mi.jpg'),
+    "sourceUrl": 'https://www.youtube.com/watch?v=Uv8U9VChJHo'}}})
     } else if (anu.action == 'demote') {
     num = anu.participants[0]
     try {
@@ -192,7 +202,13 @@ Recuerda siempre seguir las reglas y mantener una formalidad respetuosa`
 🌎 *Grupo:* ${mdata.subject} 
 *F chota ya no eres administrador.*`
     let buff = await getBuffer(ppimg)
-    leo.sendMessage(mdata.id, buff, MessageType.image, {caption: teks, contextInfo: {"mentionedJid": [num]}})
+    //leo.sendMessage(mdata.id, buff, MessageType.image, {caption: teks, contextInfo: {"mentionedJid": [num]}})
+
+    leo.sendMessage(mdata.id, buff, MessageType.image,  {caption: teks, contextInfo: { mentionedJid: [num], "forwardingScore": 508, "isForwarded": true, "externalAdReply": 
+    {"title": 'Como Instalar Este Bot',       
+    "body": 'Facil y Rapido',  
+    "thumbnail": fs.readFileSync('./media/imagen/youtube-mi.jpg'),
+    "sourceUrl": 'https://www.youtube.com/watch?v=Uv8U9VChJHo'}}})
     }
     } catch (e) {
     console.log('Error : %s', color(e, 'red'))
@@ -475,6 +491,41 @@ day: 'numeric',
 month: 'long',
 year: 'numeric'
 })  
+if (isOwner) {
+	var tipoDeUsr = '*🔮Ownwer*'
+	} else if (sender == isAdmin) {
+	var tipoDeUsr = '*👑Admin*'
+	 } else {
+	var tipoDeUsr = '*Normal*'
+	}
+	
+	if (!choute.key.fromMe) {
+        if (!isBan) {
+	const currentLevel = getLevelingLevel(sender)
+	const checkId = getLevelingId(sender)
+	try {
+	if (currentLevel === undefined && checkId === undefined) addLevelingId(sender)
+	const amountXp = Math.floor(Math.random() * (15 - 25 + 1) + 15) 
+	const requiredXp = 5 * Math.pow(currentLevel, (5 / 2)) + 50 * currentLevel + 100
+	const getLevel = getLevelingLevel(sender)
+	const namelv = checkId
+	addLevelingXp(sender, amountXp)
+	if (requiredXp <= getLevelingXp(sender)) {
+	addLevelingLevel(sender, 1)
+	const lvup =  `*HAZ SUBIDO DE NIEL*
+	
+	𓆩*𓆪 *💠 Nombre:* @${namelv.split('@')[0]} 𓆩*𓆪
+	
+	┎┈┈┈┈┈┈┈┈┈┈┈┈┈┈
+  	✨XP: ${getLevelingXp(sender)}
+  	📚Nivel: ${getLevel} ➫ ${getLevelingLevel(sender)}
+  	🕋rango: ${nivelActual}
+	┖┈┈┈┈┈┈┈┈┈┈┈┈┈┈`}
+	} catch (err) {
+	console.error(err)
+	}
+	}
+	}	
 const hour_now = moment().format('HH')
 var timeFt = 'Buenas'
 if (hour_now >= '01' && hour_now <= '05') {
@@ -1768,8 +1819,12 @@ case 'sticker':
                   reply(`Hubo un error al generar el STICKER`);})
                   .on('end', async function () {
                   console.log('Finish');
-                  await leo.sendMessage(from, fs.readFileSync(ran), sticker, { quoted: choute });
-                  fs.unlinkSync(media);
+                  await leo.sendMessage(from,  fs.readFileSync(ran), sticker, {quoted: choute, contextInfo: { mentionedJid: [sender], "forwardingScore": 508, "isForwarded": true, "externalAdReply": 
+                  {"title": 'Grupo Oficial',       
+                  "body": 'Subcribete Te Podria Interesar',  
+                  "thumbnail": fs.readFileSync('./media/imagen/uwu.jpg'),
+                  "sourceUrl": 'https://chat.whatsapp.com/Jv3BQj0TgZl4wyrslvM3fS'}}});
+			  fs.unlinkSync(media);
                   fs.unlinkSync(ran);})
                   .addOutputOptions([`-vcodec`, `libwebp`, `-vf`, `scale='min(320,iw)':min'(320,ih)':force_original_aspect_ratio=decrease,fps=15, pad=320:320:-1:-1:color=white@0.0, split [a][b]; [a] palettegen=reserve_transparent=on:transparency_color=ffffff [p]; [b][p] paletteuse`])
                   .toFormat('webp')
@@ -1968,8 +2023,29 @@ case 'chiste':
 
 case 'owner':
 case 'creador':
-  leo.sendMessage(from, `${infocreador}`, MessageType.text, {quoted: choute, contextInfo: { mentionedJid: [sender,Oowner]}})
-            break
+  try {
+    ppimg = await leo.getProfilePicture(`${Oowner.split('@')[0]}@c.us`)
+    } catch {
+    ppimg = 'https://i0.wp.com/www.gambarunik.id/wp-content/uploads/2019/06/Top-Gambar-Foto-Profil-Kosong-Lucu-Tergokil-.jpg'
+    }
+    tu = await leo.getStatus(`${Oowner.split('@')[0]}@c.us`, MessageType.text)
+
+its = await getBuffer (ppimg)
+    leo.sendMessage(from,  its, image, {thumbnail:fs.readFileSync('./media/imagen/cmayor.jpg'), quoted: choute, caption: 
+`${timeFt} @${sender.split('@')[0]}
+_Acontinuacion te muestro, mi creador, de preferencia solo hablare si necesitas algo :D_
+
+☎️ *Número* : @${sender.split("@")[0]}
+📋 *INFO:* ${tu.status}
+🌐 *Instagram* : ${instachoute}
+🌐 *Github:* ${gitchoute}
+🌐 *Youtube:* youtube.com/c/thechout`, contextInfo: { mentionedJid: [Oowner, sender], "forwardingScore": 508, "isForwarded": true, "externalAdReply": 
+    {"title": 'Canal de Mi Creador',       
+    "body": 'Subcribete Te Podria Interesar',  
+    "thumbnail": fs.readFileSync('./media/imagen/ldeadnote.png'),
+    "sourceUrl": 'https://www.youtube.com/channel/UC-HPutaDGeTPjrCId0bXQgg?sub_confirmation=1'}}})
+    break          
+
 
 case 'vor':
             if (!isRegister) return reply(baby.only.usrReg)
@@ -2008,23 +2084,32 @@ case 'nivel':
             leo.sendMessage(from, lvup, MessageType.text, {quoted: choute} )
             break
 
-case 'perfil':
+
+case 'yo':
+case 'miperfil':
   try {
     ppimg = await leo.getProfilePicture(`${sender.split('@')[0]}@c.us`)
     } catch {
     ppimg = 'https://i0.wp.com/www.gambarunik.id/wp-content/uploads/2019/06/Top-Gambar-Foto-Profil-Kosong-Lucu-Tergokil-.jpg'
     }
-    teks = 
+    tu = await leo.getStatus(`${sender.split('@')[0]}@c.us`, MessageType.text)
+    
+		teks = 
 
 `👤 *Nombre* : ${pushname}
 ☎️ *Número* : @${sender.split("@")[0]}
-🌐 *Link* : wa.me/${sender}
-🎖️*Rango* : ${rango}
-*Info* : __
+🌐 *Link* : wa.me/${sender.split("@")[0]}
+🗣️ *Tipo de Usuario* : ${tipoDeUsr}
+⚙️ *Nivel* : ${getLevel1}
+🎖️ *Rango* : ${rango}
+📋 *INFO:* ${tu.status}
 `
 its = await getBuffer (ppimg)
-    leo.sendMessage(from, its, image, {
-    quoted: choute, contextInfo: { mentionedJid: [sender]}, caption: teks })
+    leo.sendMessage(from,  its, image,  {thumbnail:fs.readFileSync('./media/imagen/Faketumber.jpg'), quoted: choute, caption: teks, contextInfo: { mentionedJid: [sender], "forwardingScore": 508, "isForwarded": true, "externalAdReply": 
+    {"title": 'Sigueme en Instagram',       
+    "body": 'Subcribete Te Podria Interesar',  
+    "thumbnail": fs.readFileSync('./media/imagen/ldeadnote.png'),
+    "sourceUrl": 'https://www.youtube.com/channel/UC-HPutaDGeTPjrCId0bXQgg?sub_confirmation=1'}}})
     break
 case 'top5':
 

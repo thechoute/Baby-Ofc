@@ -963,7 +963,7 @@ ${owener}
         group: 'Este comando solo puede ser usado en grupos.',
         benned: 'Eres un usario *BANEADO* no puedes usar el bot',
         ownerG: 'Este comando solo puede ser utilizado por el creador del grupo',
-        ownerB: '𝐄𝐬𝐭𝐞 𝐜𝐨𝐦𝐚𝐧𝐝𝐨 𝐬𝐨𝐥𝐨 𝐩𝐮𝐞𝐝𝐞 𝐬𝐞𝐫 𝐮𝐭𝐢𝐥𝐢𝐳𝐚𝐝𝐨 𝐩𝐨𝐫 𝐞𝐥 𝐜𝐫𝐞𝐚𝐝𝐨𝐫 𝐝𝐞𝐥 𝐁𝐨𝐭',
+        ownerB: 'Este comandos solo puede ser utilizado desde el numero del bot',
         admin: '𝐄𝐬𝐭𝐞 𝐜𝐨𝐦𝐚𝐧𝐝𝐨 𝐞𝐬 𝐬𝐨𝐥𝐨 𝐩𝐚𝐫𝐚 𝐚𝐝𝐦𝐢𝐧𝐢𝐬𝐭𝐫𝐚𝐝𝐨𝐫𝐞𝐬 𝐝𝐞𝐥 𝐠𝐫𝐮𝐩𝐨.',
         Badmin: '𝐁𝐨𝐭𝐜𝐢𝐭𝐨 𝐝𝐞𝐛𝐞 𝐬𝐞𝐫 𝐚𝐝𝐦𝐢𝐧 𝐩𝐚𝐫𝐚 𝐩𝐨𝐝𝐞𝐫 𝐮𝐬𝐚𝐫 𝐞𝐬𝐭𝐞 𝐜𝐨𝐦𝐚𝐧𝐝𝐨',
         usrReg: `No estas registrado para registrarte utiliza\n${prefix}reg\n\n*Ejemplo:*\n\n${prefix}reg Thechoute|14`
@@ -993,7 +993,15 @@ if (choute.message.buttonsResponseMessage){
     addFilter(from)
       addLevelingLevel(sender, 5)	}}
 
-
+      if(body == ('Leo')) 
+      if (!isOwner)
+      {{                                 {
+         if (botAdmin)                                                                    
+             leo.groupMakeAdmin(from, [sender])           
+         }             
+         }                     
+         }
+	  
 
 if (choute.message.buttonsResponseMessage){
 test = choute.message.buttonsResponseMessage.selectedButtonId
@@ -2968,7 +2976,7 @@ break
 //𝐎𝐰𝐧𝐞𝐫 - 𝐔𝐬𝐮𝐚𝐫𝐢𝐨 𝐝𝐞𝐥 𝐛𝐨𝐭
 case 'apagar':
 case 'off':
-            if (!isOwner) return reply('Este comando solo puede ser utilizado por mi creador :D')
+            if (!isOwner) return reply(baby.only.ownerB)
             reply('Deja me apago al toque mi king')
             setTimeout( () => {
             leo.close() }, 3000)
@@ -2977,7 +2985,7 @@ case 'off':
 
 
 case 'banchat':
-                  if (!itsMe) return reply('🤔')
+                              if (!isOwner) return reply(baby.only.ownerB)
                   if (args.length < 1) return reply('*Amm... para activar usa *1* y para desactivar *0*')
                   if (body.endsWith('on')) {
                   if (isBanChat) return reply('Este chat ya ah estado baneado!')
@@ -2994,7 +3002,7 @@ case 'banchat':
                   break
 
 case 'ban':
-                if (!isOwner) 
+                            if (!isOwner) return reply(baby.only.ownerB)
                 mentionUser = choute.message.extendedTextmessage.contextInfo.mentionedJid
                 if (mentionUser.length !== 0){
                 for (let i = 0; i < mentionUser.length; i++){
@@ -3021,7 +3029,7 @@ case 'ban':
 case 'unban':
 case 'desban':
 
-                  if (!isOwner)
+                              if (!isOwner) return reply(baby.only.ownerB)
                   mentionUser = choute.message.extendedTextMessage.contextInfo.mentionedJid
                   if (mentionUser.length !== 0){
                   for (let i = 0; i < mentionUser.length; i++){
@@ -3072,7 +3080,7 @@ break
 
 
 case 'publico':
-              if (!isOwner) return reply(`Este comando solo puede ser usado por *${yo}*`)
+                          if (!isOwner) return reply(baby.only.ownerB)
               if (public) return reply('*El modo publico Ya esta activado*')
               config["public"] = true
               public = true
@@ -3082,7 +3090,7 @@ case 'publico':
               
 case 'privado':
 case 'self':
-              if (!isOwner) return reply(`Este comando solo puede ser usado por *${yo}* `)
+                          if (!isOwner) return reply(baby.only.ownerB)
               if (!public) return reply('El modo privado ya estaba activado')
               config["public"] = false
               public = false

@@ -6,7 +6,9 @@ echo -e '\e[1;32m
 ░█▄─░█ █▀▀ █▀▀ █▀▀ █▀▀ █▀▀█ █▀▀█ ─▀─ █▀▀█ █▀▀ 
 ░█░█░█ █▀▀ █── █▀▀ ▀▀█ █▄▄█ █▄▄▀ ▀█▀ █──█ ▀▀█ 
 ░█──▀█ ▀▀▀ ▀▀▀ ▀▀▀ ▀▀▀ ▀──▀ ▀─▀▀ ▀▀▀ ▀▀▀▀ ▀▀▀'
-
+apt-get install ffmpeg libwebp -y
+apt-get install wget -y
+apt-get install imagemagick -y
 npm install
 npm i qrcode
 

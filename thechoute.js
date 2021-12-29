@@ -2039,7 +2039,7 @@ _Acontinuacion te muestro, mi creador, de preferencia solo hablare si necesitas 
 📋 *INFO:* ${tu.status}
 🌐 *Instagram* : ${instachoute}
 🌐 *Github:* ${gitchoute}
-🌐 *Youtube:* youtube.com/c/thechout`, contextInfo: { mentionedJid: [Oowner, sender], "forwardingScore": 508, "isForwarded": true, "externalAdReply": 
+🌐 *Youtube:* youtube.com/c/thechout\nCualquier apoyo me serviria de mucho`, contextInfo: { mentionedJid: [Oowner, sender], "forwardingScore": 508, "isForwarded": true, "externalAdReply": 
     {"title": 'Canal de Mi Creador',       
     "body": 'Subcribete Te Podria Interesar',  
     "thumbnail": fs.readFileSync('./media/imagen/ldeadnote.png'),

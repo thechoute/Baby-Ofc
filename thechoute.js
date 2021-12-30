@@ -2043,7 +2043,7 @@ its = await getBuffer (ppimg)
 `${timeFt} @${sender.split('@')[0]}
 _Acontinuacion te muestro, mi creador, de preferencia solo hablare si necesitas algo :D_
 
-☎️ *Número* : @${sender.split("@")[0]}
+☎️ *Número* : @${Oowner.split("@")[0]}
 📋 *INFO:* ${tu.status}
 🌐 *Instagram* : ${instachoute}
 🌐 *Github:* ${gitchoute}

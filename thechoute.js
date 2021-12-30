@@ -138,7 +138,7 @@ try {pushnem = choute.key.fromMe ? leo.user.name : conts.notify || conts.vname |
     try {
     ppimg = await leo.getProfilePicture(`${anu.participants[0].split('@')[0]}@c.us`)} 
     catch {
-    ppimg = 'https://centromedicomontemar.cl/wp-content/uploads/2015/06/sin-perfil.png'}  
+    ppimg = 'https://i.ibb.co/gDJ29Jt/Baby-Foto-Perfil.jpg'}  
     
      teks = 
 `😙Hola, @${num.split('@')[0]}
@@ -162,7 +162,7 @@ Recuerda siempre seguir las reglas y mantener una formalidad respetuosa`
   try {
   ppimg = await leo.getProfilePicture(`${anu.participants[0].split('@')[0]}@c.us`)} 
   catch {
-  ppimg = 'https://centromedicomontemar.cl/wp-content/uploads/2015/06/sin-perfil.png'}  
+  ppimg = 'https://i.ibb.co/gDJ29Jt/Baby-Foto-Perfil.jpg'}  
     teks = `
     @${num.split('@')[0]} Adios no se te extrañara, no comas nada del suelo que estan envenenando a los perros.`
     let fotoP = await getBuffer(ppimg)

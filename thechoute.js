@@ -1019,7 +1019,7 @@ if (test.includes(`grupo`)){
   _https://chat.whatsapp.com/Jv3BQj0TgZl4wyrslvM3fS_
   
   Grupo 2 : 
-  _https://chat.whatsapp.com/HkUAxi8yB17E4ihRhtdWgT_`, MessageType.text, {quoted: choute})
+  _https://chat.whatsapp.com/GQnptaCf21IEvLJ69RPT4a_`, MessageType.text, {quoted: choute})
   addFilter(from)
     addLevelingLevel(sender, 5)	}}
 

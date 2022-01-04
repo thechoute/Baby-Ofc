@@ -17,6 +17,7 @@
 ### PROCESO DE INSTALACION
 Instala los archivos necesarios
 ```bash
+- termux-setup-storage
 - pkg upgrade && update
 - pkg install nodejs
 - pkg install git

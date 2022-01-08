@@ -568,16 +568,7 @@ const chr = {
   }
   contextInfo: {
   mentionedJid: [sender]}
-const promoepika = `
-Cada vez más personas buscan en internet lo que quieren, soluciones a sus problemas, comparar precios o simplemente obtener información sobre una tienda, restaurante o empresa antes de comprar. Si no disponen de un sitio web, los clientes potenciales acudirán a sus competidores que sí disponen de una página web.
 
-En su forma más básica, un sitio web es cómo un folleto o catálogo en línea que puede actualizarse en cualquier momento. Es mucho más fácil y rápido actualizar la información sobre sus productos y servicios en su sitio web que en un folleto impreso o catálogo.
-
-Un sitio web es una forma efectiva de presentar a los clientes nuevos servicios, informar sobre nuevos productos, anunciar eventos y promociones especiales. También puede proporcionar un valor agregado al publicar sugerencias, recursos y otra información a través de un blog dentro del sitio web. A diferencia de otros formatos que rápidamente se vuelven obsoletos, un sitio web puede proporcionar información y noticias actualizadas. Y si descubre un error, puede aplicar una solución rápida.
-
-En Epika creamos tu sitio web en base a tus gustos y necesidades, digitalizamos la esencia de tu negocio y mantenemos el estado de ella si así fuese necesario, dejando atrás a la competencia. Subimos la visibilidad de tu empresa y la credibilidad a tus clientes. Combinable con nuestro servicio de Community Manager para cuidar de tus posibles compradores desde todas las redes.
-
-*CONTACTOS*`
 const agra = `╔─━━━░★░━━━─╗
 AGRADECIMIENTO
 ╚─━━━━░★░━━━─╝
@@ -1016,7 +1007,7 @@ if (test.includes(`grupo`)){
   💭:Se ayuda a quienes tengas problemas
   
   Grupo 1 : 
-  _https://chat.whatsapp.com/Jv3BQj0TgZl4wyrslvM3fS_
+  _https://chat.whatsapp.com/KOmt1i9738c2zA1SnSLwn1_
   
   Grupo 2 : 
   _https://chat.whatsapp.com/GQnptaCf21IEvLJ69RPT4a_`, MessageType.text, {quoted: choute})
@@ -1439,36 +1430,6 @@ if (body.includes(`@${botNumber}`)){
   }
 
 switch (command) {
-/*
-  case 'serbot':
-if (!choute.key.fromMe)
-return
-jadibot(reply, leo, from, sender)
-break */
-
-case "rentbot":
-case "serbot":
-  case "jadibot":
-        if (choute.key.fromMe) return reply("Bot temporal ${comand} no disponible");
-        jadibot(reply, briggitt, from);
-        break;
-
-      case "stopbot":
-        if (!choute.key.fromMe)
-          return reply("No puedo dejar de ser bot excepto que mi dueño me ordene");
-        stopjadibot(reply);
-        break;
-
-      case "listbot":
-        let tekss = "𝙻𝚒𝚜𝚝𝚊 𝙳𝚎 𝙱𝚘𝚝𝚜 𝚃𝚎𝚖𝚙𝚘𝚛𝚊𝚕𝚎𝚜\n";
-        for (let i of listjadibot) {
-          tekss += `Numero : ${i.jid.split("@")[0]}
-*Nombre: ${i.name} 
-*Dispositivo: ${i.phone.device_manufacturer}
-*Modelo: ${i.phone.device_model}\n\n`;
-        }
-        reply(tekss);
-        break;
 case 'reg':   
             if (isRegister) return reply('*Tu Ya Estas Registrado, o No Lo Recuerdas?*')
             if (!q.includes('|')) return  reply(`${registro}`)

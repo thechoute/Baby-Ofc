@@ -1900,7 +1900,7 @@ case 'ytmp3':
 No hagas spam del comando_` 
               sendFileFromUrl(res1.all[0].image, image, {quoted: choute, caption: thumbInfo})
               res1 = await y2mateA(res1.all[0].url).catch(e => {
-              pr21 = getJson(`https://api.zeks.xyz/api/ytmp3?apikey=hamilton20&url=${res1.all[0].url}`)	
+              pr21 = getJson(`https://api.zeks.me/api/ytplaymp3?apikey=thechoute&q=${teks}`)	
               reply(`:D*`)
               sendFileFromUrl(pr21.result.url_audio, audio, {quoted: choute, mimetype: 'audio/mp4', filename: res1[0].output})
               //sendFileFromUrl(pr21.result.url_audio, audio, {quoted: choute, mimetype: 'audio/mp4', ptt: true, filename: res1[0].output})

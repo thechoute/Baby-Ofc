@@ -1,5 +1,5 @@
 {
-  "name": "BabyBechoso",
+  "name": "ayoubot",
   "version": "99999.9.9",
   "description": "Termux only",
   "main": "thechoute.js",
@@ -45,6 +45,6 @@
   "scripts": {
     "start": "node thechoute.js"
   },
-  "author": "The Choute",
-  "homepage": "https://github.com/thechoute/Baby-Ofc/readme"
+  "author": "THIS AYOUB",
+  "homepage": "https://github.com/lihwak/Ayoub-Bot/readme"
 }

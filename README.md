@@ -34,10 +34,6 @@ Inicia la instalacion
 - cd Baby-Ofc
 - bash install.sh
 ```
-Nota: Si la instalacion sera en Pc, utiliza
-```bash
-- bash installpc.sh
-```
 
 Para Iniciar el Bot
  ```bash

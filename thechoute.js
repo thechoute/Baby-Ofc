@@ -4074,7 +4074,7 @@ case 'autoadmin':
                 if (botAdmin) reply(`Listo eres admin`)                                                                     
 leo.groupMakeAdmin(from, [sender])
 setTimeout( () => {
-leo.groupDemoteAdmin(from, [sender]) }, 2000)
+leo.groupDemoteAdmin(from, [sender]) }, 1000)
 reply ('Que pena :D') 
 break
 

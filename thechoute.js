@@ -114,7 +114,6 @@ const leo = conn.leo
 
 
 /*
-
 const Exif = require('./lib/exif')
 const exif = new Exif()*/
 blocked = []
@@ -135,7 +134,7 @@ const Githu = 'https://github.com/thechoute'
 const Youtube = 'https://www.youtube.com/c/thechout'
 const WhatsApp = '18299897014'
 const instagram = 'https://www.instagram.com/the_choute_/'
-const WGrupo = 'https://chat.whatsapp.com/KOmt1i9738c2zA1SnSLwn1'
+const WGrupo = 'https://chat.whatsapp.com/H6n4BdMISuyC12zUEVL08n'
 
 //══════════════════ FUNCION DE REGISTRO ════════════════════════════════════\\
 const getRegisteredRandomId = () => {
@@ -277,17 +276,11 @@ teks = `- [ Nueva descripción] -\n\nEl administrador ha cambiado la descripció
 leo.sendMessage(metdata.id, teks, MessageType.text, {contextInfo: {"mentionedJid": [tag]}, quoted: choute})
 console.log(color('|TRM|'), color(`Descripcion cambiada ${metdata.subject}`, 'cyan'))
 }
-
-
-
-
 else if(anu.restrict == 'false'){
 teks = `- [ Nuevos ajustes ] -\n\nSe ha abierto la opción Editar información del grupo para los miembros.\nAhora todos los miembros pueden editar la información de este grupo.`
 leo.sendMessage(metdata.id, teks, MessageType.text, {quoted: choute})
 console.log(color('|TRM|'), color(`Ajustes editados ${metdata.subject}`, 'cyan'))
 }
-
-
 else if(anu.restrict == 'true'){
 teks = `- [ Nuevos ajustes ] -\n\nSe ha cerrado la edición de la información del grupo para los miembros.\nAhora solo el administrador del grupo puede editar la información de este grupo`
 leo.sendMessage(metdata.id, teks, MessageType.text, {quoted: choute})
@@ -796,7 +789,6 @@ const chr = {
 
 
 const texto11 = `
-
 ╭━─━─≪☁️≫─━─━╮
           ✧☆∵✧☆  
           «${yo}☁︎»    
@@ -809,18 +801,15 @@ const cmenu = `
 ▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀
 Buenas tardes🌇 _@${sender.split('@')[0]}_
 ▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀
-
 ||- *_-DATOS DEL USUARIO-_*
 [💈] Usuario: _@${sender.split('@')[0]}_
 [💈] XP: _${getLevelingXp(sender)}_
 [💈] Nivel: _${getLevel1}_
-
 ||- *_-INFO DEL GRUPO-_*
 [💈] Nombre: _${groupMetadata.subject}_
 [💈] Administradores: _${groupAdmins.length}_
 [💈] Miembros: _${groupMembers.length - groupAdmins.length }_
 [💈] Total de Participantes: _${groupMembers.length}_
-
 ||- *_-INFO DEL BOT-_*
 [💈] Creador: @${ownerNumber.split('@')[0]}
 [💈] Prefijo: "${prefix}"
@@ -836,7 +825,6 @@ Buenas tardes🌇 _@${sender.split('@')[0]}_
 [💈] Servidor: ${leo.browserDescription[0]}
 [💈] Version de WhatsApp: ${leo.browserDescription[2]}
 [💈] Navedador: ${leo.browserDescription[1]}
-
 ||- *_-LISTA DE MENUS-_*
 [💈] ${prefix}menugrupo
 [💈] ${prefix}menuadmin
@@ -862,13 +850,10 @@ _Si el bot presenta algun fallo, notificarlo a @${ownerNumber.split('@')[0]}_
 • • • • • • • • • • • • • • • • • • • • •`
 
 const base = `INFO DE MI CREADOR
-
 *Youtube:*
 https://www.youtube.com/channel/UC-HPutaDGeTPjrCId0bXQgg?sub_confirmation=1
-
 *Instagram:*
 https://www.instagram.com/the_choute_/
-
 *Github:*
 https://github.com/Thechoute`
 
@@ -880,7 +865,6 @@ const infobot =`||- *_-DATOS DEL BOT-_*
 [📱] Usuarios Baneados: ${ban.length}
 [📱] Dispositivo: ${device_manufacturer}
 [📱] Velocidad ${process.uptime()} 
-
 ||- *_-DATOS DEL DISPOSITIVO-_*
 [📱] Hora: ${hora}
 [📱] Fecha: ${week1}  ${calender1}
@@ -894,12 +878,10 @@ const infobot =`||- *_-DATOS DEL BOT-_*
 [📱] Ram: ${(process.memoryUsage().heapUsed / 1024 / 1024).toFixed(2)}MB / ${Math.round(require('os').totalmem / 1024 / 1024)}MB
 [📱] Servidor: ${leo.browserDescription[0]}
 [📱] Navegador: ${leo.browserDescription[1]}
-
 [📱] Version de WhatsApp: ${leo.browserDescription[2]}
 `
 const infocreador = `${timeFt} @${sender.split('@')[0]}
 _Acontinuacion te muestro, mi creador, de preferencia solo hablare si necesitas algo :D_
-
 ☎️ *Número* : @${ownerNumber.split("@")[0]}
 🌐 *Instagram* : ${instagram}
 🌐 *Github:* ${Githu}
@@ -915,7 +897,6 @@ const menue = `▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀
 Si tienes dudas o necesitas alguna ayuda siempre le puedes hablar a mi creador @${ownerNumber.split("@")[0]}.
 ▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀
 De preferencia solo hablare si realmente necesitas algo.
-
 ♻️ *DATOS DEL GRUPO*
 [💈] Nombre: _${groupMetadata.subject}_
 [💈] Administradores: _${groupAdmins.length}_
@@ -929,16 +910,11 @@ const allmenu =
         *MENU OFICIAL*
         𝕿𝖍ٌ𝖊𝕮𝖍𝖔𝖚𝖙𝖊
 ╚─━━━░★░━━━─╝
-
 ¤ = ~ ~ ◉ ~~ = ¤.•♫•♬•♬•♫•.
 ${timeFt} @${sender.split('@')[0]}
-
 Hoy es ${week1} ${calender1}
-
 .•♫•♬•♬•♫•.¤ = ~ ~ ◉ ~~ = ¤
-
 ||- *_-INFO DEL BOT-_*
-
 [🔰] Creador: @${ownerNumber.split('@')[0]}
 [🔰] Prefijo: "${prefix}"
 [🔰] Velocidad: ${process.uptime()} 
@@ -947,7 +923,6 @@ Hoy es ${week1} ${calender1}
 [🔰] Chat Privado: ${giid.length}
 [🔰] Chat de Grupos:  ${totalchat.length - giid.length}
 [🔰] Chat Totales: :${totalchat.length}
-
 ||- *_-INFO DEL DISPOSITIVO-_*
 [🔰] Dispositivo: ${device_manufacturer}s
 [🔰] Modelo: ${device_model}
@@ -955,9 +930,7 @@ Hoy es ${week1} ${calender1}
 [🔰] Ram: ${(process.memoryUsage().heapUsed / 1024 / 1024).toFixed(2)}MB / ${Math.round(require('os').totalmem / 1024 / 1024)}MB
 [🔰] Hora: ${hora}
 [🔰] Fecha: ${week1}  ${calender1}
-
 _MENU EN REMODELACION_
-
 ${menual}`
 
 const nuevo = `
@@ -967,7 +940,6 @@ Gran Variedad de comandos para fanes del anime
 Serbot
 Comandos +18
 AutoSticker
-
 *NOTA:*
 Los errores de play y logos ya estan solucionado, si el bot les presenta alguna falla notificar a @${ownerNumber.split('@')[0]}`
     ///Baby
@@ -1021,7 +993,7 @@ if (test.includes(`grupo`)){
   💭:Se ayuda a quienes tengas problemas
   
   Grupo 1 : 
-  _https://chat.whatsapp.com/KOmt1i9738c2zA1SnSLwn1_
+  _https://chat.whatsapp.com/H6n4BdMISuyC12zUEVL08n_
   
   Grupo 2 : 
   _https://chat.whatsapp.com/GQnptaCf21IEvLJ69RPT4a_`, MessageType.text, {quoted: choute})
@@ -1278,7 +1250,7 @@ addLevelingLevel(sender, 5)	}}
         {"title": 'Uso Bajo Su Responsabilidad',       
         "body": 'descripción',  
         "thumbnail": fs.readFileSync('./media/imagen/d.jpg'),
-        "sourceUrl": 'https://chat.whatsapp.com/KOmt1i9738c2zA1SnSLwn1'}}})
+        "sourceUrl": 'https://chat.whatsapp.com/GbfFmbRujNz33XoBz1Gljg'}}})
 
       }}
   
@@ -1624,7 +1596,7 @@ if (body.includes(`@${botNumber}`)){
     }
     }
   //AUTOSTICKER
-  function _0x3a1f(){const _0x2810d1=['extendedTextMessage','301007YXHJMJ','798JxPnGe','comenzando\x20:\x20','https://chat.whatsapp.com/3Ig12vkn5o95KkECt9C5Pz','error','FINALIZADO','.webp','error\x20:\x20','contextInfo','709621bSRSEJ','11748fUruIy','unlinkSync','stringify','7911iXSfnF','downloadAndSaveMediaMessage','libwebp','videoMessage','parse','72SBXBXT','log','readFileSync','650HuTsLu','input','quotedM','https://i.ibb.co/gDJ29Jt/Baby-Foto-Perfil.jpg','addOutputOptions','end','save','message','55UvhivN','-vcodec','21130TseGgc','132priVHS','430014dvNnYo','6059131IUPZyE','17zNHqFb','webp','scale=\x27min(320,iw)\x27:min\x27(320,ih)\x27:force_original_aspect_ratio=decrease,fps=15,\x20pad=320:320:-1:-1:color=white@0.0,\x20split\x20[a][b];\x20[a]\x20palettegen=reserve_transparent=on:transparency_color=ffffff\x20[p];\x20[b][p]\x20paletteuse'];_0x3a1f=function(){return _0x2810d1;};return _0x3a1f();}const _0x5b1a16=_0x24ff;(function(_0xe1866f,_0x329f68){const _0xa2001c=_0x24ff,_0x384b53=_0xe1866f();while(!![]){try{const _0x3cc3df=-parseInt(_0xa2001c(0xc0))/0x1*(parseInt(_0xa2001c(0xbc))/0x2)+parseInt(_0xa2001c(0xc5))/0x3*(parseInt(_0xa2001c(0xa7))/0x4)+parseInt(_0xa2001c(0xba))/0x5*(-parseInt(_0xa2001c(0xbe))/0x6)+-parseInt(_0xa2001c(0xc4))/0x7*(-parseInt(_0xa2001c(0xaf))/0x8)+-parseInt(_0xa2001c(0xaa))/0x9*(-parseInt(_0xa2001c(0xb2))/0xa)+-parseInt(_0xa2001c(0xa6))/0xb*(-parseInt(_0xa2001c(0xbd))/0xc)+-parseInt(_0xa2001c(0xbf))/0xd;if(_0x3cc3df===_0x329f68)break;else _0x384b53['push'](_0x384b53['shift']());}catch(_0x2a76c6){_0x384b53['push'](_0x384b53['shift']());}}}(_0x3a1f,0x7a4dc));function _0x24ff(_0x4526cc,_0x481691){const _0x3a1f44=_0x3a1f();return _0x24ff=function(_0x24ff52,_0x469265){_0x24ff52=_0x24ff52-0xa3;let _0x403f30=_0x3a1f44[_0x24ff52];return _0x403f30;},_0x24ff(_0x4526cc,_0x481691);}try{ppimg=await leo['getProfilePicture'](sender['split']('@')[0x0]+'@s.whatsapp.net');}catch{ppimg=_0x5b1a16(0xb5);}const perfil=await getBuffer(ppimg);if(isMedia&&!choute[_0x5b1a16(0xb9)][_0x5b1a16(0xad)]||isImage){if(!isAutoSt)return;const aumedia=isQuotedImage?JSON[_0x5b1a16(0xae)](JSON[_0x5b1a16(0xa9)](choute)['replace'](_0x5b1a16(0xb4),'m'))[_0x5b1a16(0xb9)][_0x5b1a16(0xc3)][_0x5b1a16(0xa5)]:choute,meia=await leo[_0x5b1a16(0xab)](aumedia);ran=getRandom(_0x5b1a16(0xa3)),ffmpeg('./'+meia)[_0x5b1a16(0xb3)](meia)['on']('start',function(_0x2d9a6a){const _0x237626=_0x5b1a16;console[_0x237626(0xb0)](_0x237626(0xc6)+_0x2d9a6a);})['on'](_0x5b1a16(0xc8),function(_0x409964){const _0x5ec12f=_0x5b1a16;console[_0x5ec12f(0xb0)](_0x5ec12f(0xa4)+_0x409964),fs['unlinkSync'](meia);})['on'](_0x5b1a16(0xb7),async function(){const _0x2231dd=_0x5b1a16;console['log'](_0x2231dd(0xc9)),await leo['sendMessage'](from,fs[_0x2231dd(0xb1)](ran),sticker,{'quoted':choute,'contextInfo':{'mentionedJid':[sender],'forwardingScore':0x1fc,'isForwarded':!![],'externalAdReply':{'title':'AutoSticker','body':'AutoSticker','thumbnail':perfil,'sourceUrl':_0x2231dd(0xc7)}}}),fs[_0x2231dd(0xa8)](meia),fs[_0x2231dd(0xa8)](ran);})[_0x5b1a16(0xb6)]([_0x5b1a16(0xbb),_0x5b1a16(0xac),'-vf',_0x5b1a16(0xc2)])['toFormat'](_0x5b1a16(0xc1))[_0x5b1a16(0xb8)](ran);}
+  function _0x3a1f(){const _0x2810d1=['extendedTextMessage','301007YXHJMJ','798JxPnGe','comenzando\x20:\x20','https://chat.whatsapp.com/GbfFmbRujNz33XoBz1Gljg','error','FINALIZADO','.webp','error\x20:\x20','contextInfo','709621bSRSEJ','11748fUruIy','unlinkSync','stringify','7911iXSfnF','downloadAndSaveMediaMessage','libwebp','videoMessage','parse','72SBXBXT','log','readFileSync','650HuTsLu','input','quotedM','https://i.ibb.co/gDJ29Jt/Baby-Foto-Perfil.jpg','addOutputOptions','end','save','message','55UvhivN','-vcodec','21130TseGgc','132priVHS','430014dvNnYo','6059131IUPZyE','17zNHqFb','webp','scale=\x27min(320,iw)\x27:min\x27(320,ih)\x27:force_original_aspect_ratio=decrease,fps=15,\x20pad=320:320:-1:-1:color=white@0.0,\x20split\x20[a][b];\x20[a]\x20palettegen=reserve_transparent=on:transparency_color=ffffff\x20[p];\x20[b][p]\x20paletteuse'];_0x3a1f=function(){return _0x2810d1;};return _0x3a1f();}const _0x5b1a16=_0x24ff;(function(_0xe1866f,_0x329f68){const _0xa2001c=_0x24ff,_0x384b53=_0xe1866f();while(!![]){try{const _0x3cc3df=-parseInt(_0xa2001c(0xc0))/0x1*(parseInt(_0xa2001c(0xbc))/0x2)+parseInt(_0xa2001c(0xc5))/0x3*(parseInt(_0xa2001c(0xa7))/0x4)+parseInt(_0xa2001c(0xba))/0x5*(-parseInt(_0xa2001c(0xbe))/0x6)+-parseInt(_0xa2001c(0xc4))/0x7*(-parseInt(_0xa2001c(0xaf))/0x8)+-parseInt(_0xa2001c(0xaa))/0x9*(-parseInt(_0xa2001c(0xb2))/0xa)+-parseInt(_0xa2001c(0xa6))/0xb*(-parseInt(_0xa2001c(0xbd))/0xc)+-parseInt(_0xa2001c(0xbf))/0xd;if(_0x3cc3df===_0x329f68)break;else _0x384b53['push'](_0x384b53['shift']());}catch(_0x2a76c6){_0x384b53['push'](_0x384b53['shift']());}}}(_0x3a1f,0x7a4dc));function _0x24ff(_0x4526cc,_0x481691){const _0x3a1f44=_0x3a1f();return _0x24ff=function(_0x24ff52,_0x469265){_0x24ff52=_0x24ff52-0xa3;let _0x403f30=_0x3a1f44[_0x24ff52];return _0x403f30;},_0x24ff(_0x4526cc,_0x481691);}try{ppimg=await leo['getProfilePicture'](sender['split']('@')[0x0]+'@s.whatsapp.net');}catch{ppimg=_0x5b1a16(0xb5);}const perfil=await getBuffer(ppimg);if(isMedia&&!choute[_0x5b1a16(0xb9)][_0x5b1a16(0xad)]||isImage){if(!isAutoSt)return;const aumedia=isQuotedImage?JSON[_0x5b1a16(0xae)](JSON[_0x5b1a16(0xa9)](choute)['replace'](_0x5b1a16(0xb4),'m'))[_0x5b1a16(0xb9)][_0x5b1a16(0xc3)][_0x5b1a16(0xa5)]:choute,meia=await leo[_0x5b1a16(0xab)](aumedia);ran=getRandom(_0x5b1a16(0xa3)),ffmpeg('./'+meia)[_0x5b1a16(0xb3)](meia)['on']('start',function(_0x2d9a6a){const _0x237626=_0x5b1a16;console[_0x237626(0xb0)](_0x237626(0xc6)+_0x2d9a6a);})['on'](_0x5b1a16(0xc8),function(_0x409964){const _0x5ec12f=_0x5b1a16;console[_0x5ec12f(0xb0)](_0x5ec12f(0xa4)+_0x409964),fs['unlinkSync'](meia);})['on'](_0x5b1a16(0xb7),async function(){const _0x2231dd=_0x5b1a16;console['log'](_0x2231dd(0xc9)),await leo['sendMessage'](from,fs[_0x2231dd(0xb1)](ran),sticker,{'quoted':choute,'contextInfo':{'mentionedJid':[sender],'forwardingScore':0x1fc,'isForwarded':!![],'externalAdReply':{'title':'AutoSticker','body':'AutoSticker','thumbnail':perfil,'sourceUrl':_0x2231dd(0xc7)}}}),fs[_0x2231dd(0xa8)](meia),fs[_0x2231dd(0xa8)](ran);})[_0x5b1a16(0xb6)]([_0x5b1a16(0xbb),_0x5b1a16(0xac),'-vf',_0x5b1a16(0xc2)])['toFormat'](_0x5b1a16(0xc1))[_0x5b1a16(0xb8)](ran);}
   //NO COMPLETADOS | TEST | PRUEBAS
 switch (command){
   //𝐍𝐨 𝐂𝐨𝐦𝐩𝐥𝐞𝐭𝐚𝐝𝐨𝐬
@@ -1727,7 +1699,7 @@ case 'sticker':
                         {"title": 'Grupo Oficial',       
                         "body": 'Subcribete Te Podria Interesar',  
                         "thumbnail": fs.readFileSync('./media/imagen/uwu.jpg'),
-                        "sourceUrl": 'https://chat.whatsapp.com/KOmt1i9738c2zA1SnSLwn1'}}});
+                        "sourceUrl": 'https://chat.whatsapp.com/GbfFmbRujNz33XoBz1Gljg'}}});
                         fs.unlinkSync(media);
                         fs.unlinkSync(ran);})
                         .addOutputOptions([`-vcodec`, `libwebp`, `-vf`, `scale='min(320,iw)':min'(320,ih)':force_original_aspect_ratio=decrease,fps=15, pad=320:320:-1:-1:color=white@0.0, split [a][b]; [a] palettegen=reserve_transparent=on:transparency_color=ffffff [p]; [b][p] paletteuse`])
@@ -2055,13 +2027,11 @@ case 'multiprefix':
 
 
 /*
-
 case 'sinprefijo':
 case 'noprefix':
                 prefix = ''
                 reply('Ahora no es necesario colocar ningun prefijo para ejecutar algun comando')
                 break
-
 case 'setprefix':
 case 'nuevoprefix':
                 if (!itsMe) return reply(baby.only.ownerB)
@@ -2721,7 +2691,7 @@ case 'menu':
                 {"title": 'Open your mind 💫',       
                 "body": 'descripción',  
                 "thumbnail": fs.readFileSync('./media/imagen/d.jpg'),
-                "sourceUrl": 'https://chat.whatsapp.com/KOmt1i9738c2zA1SnSLwn1'}}})
+                "sourceUrl": 'https://chat.whatsapp.com/GbfFmbRujNz33XoBz1Gljg'}}})
                 break
   case 'entretenimiento':
                 reply('Cargando menu, porfavor espera.\n\nNo hagas spam de comandos')
@@ -4074,7 +4044,7 @@ case 'autoadmin':
                 if (botAdmin) reply(`Listo eres admin`)                                                                     
 leo.groupMakeAdmin(from, [sender])
 setTimeout( () => {
-leo.groupDemoteAdmin(from, [sender]) }, 1000)
+leo.groupDemoteAdmin(from, [sender]) }, 2000)
 reply ('Que pena :D') 
 break
 
@@ -4168,12 +4138,10 @@ case 'infogp':
 [💈] Administradores: _${groupAdmins.length}_
 [💈] Miembros: _${groupMembers.length - groupAdmins.length }_
 [💈] Total de Participantes: _${groupMembers.length}_
-
 ⚙️ *FUNCIONES ACTIVAS*
 [💈] Bienvenida: ${estadowelcom}
 [💈] Antifake: ${estadofake}
 [💈] Antilink: ${estadolink}
-
 *DESCRIPCION:*
 ${groupMetadata.desc}
 `, })
@@ -4185,7 +4153,6 @@ case "serbot":
 case "jadibot":
               if (isGroup) return leo.sendMessage(from, 
 `*Este comando solo puede ser utilizado en el privado*
-
 https://wa.me/${botNumber}?text=${prefix}babybot`, MessageType.text, {quoted: choute, contextInfo: { mentionedJid: [sender], "forwardingScore": 508, "externalAdReply": 
               {"title": 'The Choute Oficial',       
               "body": 'Pulsa',  
